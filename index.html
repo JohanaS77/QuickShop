@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickShop - Tu Tienda Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Pantalla de Login/Registro -->
+    <div id="login-screen">
+        <!-- Productos flotantes de fondo -->
+         <div id="floating-products-container"></div>
+        <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" class="floating-product" alt="">
+        <img src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg" class="floating-product" alt="">
+        <img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg" class="floating-product" alt="">
+        <img src="https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg" class="floating-product" alt="">
+        <img src="https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg" class="floating-product" alt="">
+        <img src="https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg" class="floating-product" alt="">    
+        <div class="login-container">
+            <h1>QuickShop</h1>
+            <p id="form-subtitle">Inicia sesión para comenzar a comprar</p>
+            <div class="error-message" id="error-message"></div>
+            <div class="success-message" id="success-message"></div>
+            
+            <!-- Formulario de Login -->
+            <form id="login-form">
+                <div class="form-group">
+                    <label>Usuario</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label>Contraseña</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit" class="login-btn" id="login-btn">Iniciar Sesión</button>
+            </form>
+
+            <!-- Formulario de Registro (oculto por defecto) -->
+            <form id="register-form" style="display: none;">
+                <div class="form-group">
+                    <label>Nombre Completo</label>
+                    <input type="text" id="register-name" required>
+                </div>
+                <div class="form-group">
+                    <label>Usuario</label>
+                    <input type="text" id="register-username" required>
+                </div>
+                <div class="form-group">
+                    <label>Correo Electrónico</label>
+                    <input type="email" id="register-email" required>
+                </div>
+                <div class="form-group">
+                    <label>Contraseña</label>
+                    <input type="password" id="register-password" required minlength="6">
+                </div>
+                <div class="form-group">
+                    <label>Confirmar Contraseña</label>
+                    <input type="password" id="register-password-confirm" required minlength="6">
+                </div>
+                <button type="submit" class="login-btn" id="register-btn">Registrarse</button>
+            </form>
+
+            <!-- Botón para cambiar entre login y registro -->
+            <div class="toggle-form">
+                <p id="toggle-text">¿No tienes cuenta? <a href="#" id="toggle-link">Regístrate aquí</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Aplicación Principal -->
+    <div id="app">
+        <header>
+            <div class="logo">🛒 QuickShop</div>
+            <div class="user-info">
+                <span class="welcome-text">Bienvenido, <span id="user-name"></span></span>
+                <button class="logout-btn" id="logout-btn">Cerrar Sesión</button>
+            </div>
+        </header>
+
+        <div class="container">
+            <section>
+                <h2> Catálogo de Productos</h2>
+                <div id="catalogo-productos" class="loading">Cargando productos...</div>
+            </section>
+
+            <section id="carrito-section">
+                <div class="carrito-container">
+                    <h2>🛍️ Carrito de Compras</h2>
+                    <div id="carrito">
+                        <div class="carrito-vacio">El carrito está vacío</div>
+                    </div>
+                    <div class="carrito-total" style="display: none;">
+                        <div class="total-texto">
+                            <span>Total:</span>
+                            <span class="total-precio" id="total-precio">$0.00</span>
+                        </div>
+                        <button class="btn-comprar" id="btn-comprar">Comprar Ahora</button>
+                        <button class="btn-vaciar" id="btn-vaciar">Vaciar Carrito</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Modal de compra exitosa -->
+<div class="modal-overlay" id="modal-compra">
+    <div class="modal-content">
+        <div class="modal-icon"></div>
+        <h3>¡Compra realizada con éxito!</h3>
+        <p>Su pedido se encuentra en camino. Recibirá un correo de confirmación en breve.</p>
+        <button class="btn-cerrar-modal" id="btn-cerrar-modal">Aceptar</button>
+    </div>
+</div>
+
+<!-- RUTA CORRECTA al script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
