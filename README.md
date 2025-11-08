@@ -64,7 +64,7 @@ A continuación se muestran capturas de pantalla de la aplicación:
   <p><strong>Página de inicio</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Contenido de la aplicación</strong></p>
 </div>
 
-[⬆️ Volver al índice](#tabla-de-contenido)
+[⬆️ Volver al índice](#índice)
 
 ---
 
@@ -79,7 +79,7 @@ A continuación se muestran capturas de pantalla de la aplicación:
   - [FakeStore API](https://fakestoreapi.com/) - Catálogo de productos
 - **LocalStorage** - Almacenamiento de usuarios registrados
 
-[⬆️ Volver al índice](#tabla-de-contenido)
+[⬆️ Volver al índice](#índice)
 
 ---
 
@@ -96,7 +96,7 @@ QuickShop/
 └── README.md           # Documentación del proyecto
 ```
 
-[⬆️ Volver al índice](#tabla-de-contenido)
+[⬆️ Volver al índice](#índice)
 
 ---
 
@@ -118,7 +118,7 @@ QuickShop/
    ```
 3. Abre en tu navegador: `http://localhost:3000`
 
-[⬆️ Volver al índice](#tabla-de-contenido)
+[⬆️ Volver al índice](#índice)
 
 ---
 
@@ -134,7 +134,7 @@ Contraseña: emilyspass
 ### Registrar Nuevo Usuario
 También puedes crear tu propia cuenta usando el formulario de registro.
 
-[⬆️ Volver al índice](#tabla-de-contenido)
+[⬆️ Volver al índice](#índice)
 
 ---
 
@@ -150,7 +150,7 @@ También puedes crear tu propia cuenta usando el formulario de registro.
 - [ ] Persistencia del carrito en localStorage
 - [ ] Sistema de reseñas y calificaciones
 
-[⬆️ Volver al índice](#tabla-de-contenido)
+[⬆️ Volver al índice](#índice)
 
 ---
 
@@ -176,7 +176,7 @@ Como equipo, tuvimos una participación activa en el **diseño** e **implementac
 </table>
 </div>
 
-[⬆️ Volver al índice](#tabla-de-contenido)
+[⬆️ Volver al índice](#índice)
 
 ---
 
@@ -184,7 +184,7 @@ Como equipo, tuvimos una participación activa en el **diseño** e **implementac
 # <img width="185" height="100" alt="Captura de pantalla 2025-11-07 192935" src="https://github.com/user-attachments/assets/c5a28f38-ec16-466e-9b3a-5ab074b95c20" />
 Este proyecto es de código abierto y está disponible bajo la Licencia MIT.
 
-[⬆️ Volver al índice](#indice)
+[⬆️ Volver al índice](#índice)
 
 
 
