@@ -49,7 +49,7 @@ QuickShop es una aplicación web de comercio electrónico moderna y responsive, 
 - Efectos hover y transiciones fluidas
 - Modal de confirmación de compra
 
-[⬆️ Volver al índice](#tabla-de-contenido)
+[⬆️ Volver al índice](#índice)
 
 ---
 
