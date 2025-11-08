@@ -184,7 +184,7 @@ Como equipo, tuvimos una participación activa en el **diseño** e **implementac
 # <img width="185" height="100" alt="Captura de pantalla 2025-11-07 192935" src="https://github.com/user-attachments/assets/c5a28f38-ec16-466e-9b3a-5ab074b95c20" />
 Este proyecto es de código abierto y está disponible bajo la Licencia MIT.
 
-[⬆️ Volver al índice](#tabla-de-contenido)
+[⬆️ Volver al índice](#indice)
 
 
 
